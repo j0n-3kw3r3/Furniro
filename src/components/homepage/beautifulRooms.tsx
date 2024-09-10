@@ -9,8 +9,8 @@ export default function BeautifulRooms() {
       <section className=' flex  h-[600px] bg-[#FCF8F3] w-full'>
         <div className="flex  justify-between items-center w-full ">
 
-          <div className="w-[450px] p-4  ">
-            <h1 className="text-[2rem] font-bold">
+          <div className="w-[450px] p-4  pl-16">
+            <h1 className="text-[2rem] font-bold ">
               50+ Beautiful rooms
               inspiration
             </h1>

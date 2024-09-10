@@ -15,7 +15,7 @@ export default function FurnitureGallery() {
         <p>Share your setup with</p>
         <h1 className="text-[2rem] font-bold ">#FuniroFurniture</h1>
       </div>
-      <div className="flex flex-row gap-4 ">
+      <div className="flex flex-row gap-4 -translate-y-14">
         {/* # First four images */}
 
         <div className='flex flex-col gap-4 basis-[40%]'>
