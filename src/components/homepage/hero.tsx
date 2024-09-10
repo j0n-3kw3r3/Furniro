@@ -2,12 +2,12 @@
 export default function Hero() {
   return (
     <div> 
-      <section className=" heroImage bg-cover bg-center h-[44.8019rem]">
+      <section className=" heroImage bg-cover bg-center pb-10 md:pb-0 md:h-[44.8019rem]">
     <div className=" w-full flex items-center h-full pt-[9.5625rem] justify-end  mx-auto px-14">
       <div className="flex bg-[#FFF3E3] rounded-xl px-[2.4375rem] pt-16 pb-9 items-center w-[40.1875rem] justify-center">
         <div>
           <div className="">New Arrival</div>
-          <h1 className="text-[3.25rem] font-bold text-primary ">Discover Our New Collection</h1>
+          <h1 className="text-[2.5rem] md:text-[3.25rem] font-bold text-primary ">Discover Our New Collection</h1>
           <p className="text-lg mt-4">
             Welcome to our online store! Discover our trendy collection of clothing and accessories. Shop now to
             elevate your style!

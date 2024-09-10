@@ -19,7 +19,7 @@ export default function Navbar() {
         <img src={logo} alt="" className=" w-[3.125rem] " />
         <h1 className=" font-bold text-[2.125rem] ">Furniro</h1>
       </div>
-      <div className="block space-x-[4.6875rem] ">
+      <div className="hidden md:block space-x-[4.6875rem] ">
         {links.map((link) => (
           <Link
             to={link.path}
@@ -34,7 +34,7 @@ export default function Navbar() {
           </Link>
         ))}
       </div>
-      <div className=" space-x-[2.8125rem] items-center flex">
+      <div className=" space-x-[2.8125rem] items-center hidden md:flex">
         <div className="hover:bg-primary/30 p-2 ease-out transition rounded-full ">
         <img src={accountIcon} alt="" className=" cursor-pointer  size-6 " />
         </div>
